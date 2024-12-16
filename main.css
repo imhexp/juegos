@@ -13,7 +13,7 @@ nav {
     backdrop-filter: blur(10px) saturate(200%) brightness(70%);
     color: #fff;
     display: flex;
-    height: 100px;
+    height: 85px;
     width: 100%;
     align-items: center;
     justify-content: left;
@@ -25,7 +25,7 @@ nav {
 nav img {
     height: 60px;
     width: auto;
-    margin-right: 15px;
+    margin-right: 12px;
 	margin-left: 15px;
     border-radius: 10px;
     cursor: pointer;
@@ -56,13 +56,13 @@ nav h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 140px;
+    margin-top: 130px;
     padding-bottom: 5vw;
 
 }
  
 #games img {    
-	height: 210px;
+	height: 180px;
     width: auto;
     border-radius: 1vw;
     margin: .5vw;
@@ -72,5 +72,17 @@ nav h1 {
 }
  
 #games img:hover {
-    transform: scale(1.01);
+    transform: scale(1.07);
 }
+
+footer {
+    margin-top: -50px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+    footer p {
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.9);
+        font-weight: 500;
+    }
